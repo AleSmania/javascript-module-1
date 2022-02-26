@@ -1,7 +1,7 @@
-// Write your function here
-         
-function suma (valor1,valor2){ 
-    var resultado 
-    resultado = (valor1 + valor2)
-    return resultado              
+
+// Declare your function here
+function createLongGreeting( name,){
+    return `Hello, my name is ${name}`;
 }
+const greeting = createLongGreeting("Daniel");
+console.log(greeting); // prints: Hello, my name is Daniel.
