@@ -1,14 +1,19 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+const mentor1 =`Daniel´;
+const mentor2 = “Irina”;
+const mentor3 = “Mimi”;
+const mentor4 = “Rob”;
+const mentor5 = “Yohannes”;
 
-function createGreeting( mentor1,){
-    return `Hello, my name is ${mentor1}`;
+function mentors(mentor){
+    const nameInUpperCase = mentor.toUpperCase();
+    return nameInUpperCase;
 }
-const greeting = createGreeting("Daniel");
-function gritar (mentor1) {
-    return "¡" + toUpperCase(mentor1) + "!"
-}
-console.log(greeting);     
+function shoutingOutLoud(mentor){
+    return `HELLO ${mentor.toUpperCase()}`
+    }
+
+console.log(shoutingOutLoud(mentor1));
+console.log(shoutingOutLoud(mentor2));
+console.log(shoutingOutLoud(mentor3));
+console.log(shoutingOutLoud(mentor4));
+console.log(shoutingOutLoud(mentor5));
